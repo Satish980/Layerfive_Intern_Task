@@ -27,6 +27,7 @@ This repo consists of Codes of Read and Add Operations Using Django task given b
        Frontend: HTML, Bootstrap
        Backend : Django
        Database: PostgreSql
+    3. Live Link: https://layerfive-django-task.herokuapp.com/
 
 # Procedure
    1. Download the code or clone the repository using below link
