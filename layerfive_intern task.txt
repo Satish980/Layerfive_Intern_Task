@@ -1,0 +1,25 @@
+Hi,
+Thanks for applying to the LayerFive internship program. We are delighted to let you know that you have been shortlisted from hundreds of applications we received. 
+As the next step, please complete a short assignment by July, 23rd. Below are the details. We are looking for speed, and quality of work. The assignment should be well documented so that anyone can follow the instructions and run your program on any machine.
+
+Brief Django API
+	1. Create an API for a user request which will take the following input parameters:
+	• First Name
+	• Last Name
+	• Email
+	• Phone Number
+	• Address (Address Line1, Address Line2, City, Zipcode, State)
+	
+	2. Create an API which will retrieve all the user request data
+	3. Create a Angular form (or use any front-end javaScript library or simple HTML if not familiar with JavaScript) which will have  the fields mentioned in the above API, Integrate the API to submit the form data.
+	4. Create a page to display submitted data on another page
+
+	Ø Use Django Rest Framework to achieve the above goal
+	Ø Use Postgres as database and use migrations to create the tables
+	Ø Follow python guidelines and coding standards
+Upload the code on GitHub repo and share the link once you are done. 
+
+If you have any questions, please feel free to ask. 
+
+Best
+LayerFive

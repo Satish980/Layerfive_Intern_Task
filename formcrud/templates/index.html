@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% if DetailsList|length < 1 %}
+    <div class="container">
+        <div class="card bg-light">
+            <div class="card-header text-center text-white bg-primary"><b>User Details</b></div><br>
+                <h4 style="text-align: center;">There are no users, Create new user</h4>
+            </div>
+        </div>
+    </div>
+{% else %}
+    <br><br>
+    <h1 class="card-title text-primary text-center">User Details</h1>
+    <table class="table table-stripped bg-light">
+        <thead class="bg-dark text-white">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Address Line1</th>
+                <th>Address Line2</th>
+                <th>City</th>
+                <th>Zipcode</th>
+                <th>State</th>
+            </tr>
+        </thead> 
+        <tbody class="text-dark">
+            {% for data in DetailsList %}
+                <tr>
+                    <td>{{data.fname}}</td>
+                    <td>{{data.lname}}</td>
+                    <td>{{data.email}}</td>
+                    <td>{{data.phone}}</td>
+                    <td>{{data.addressLine1}}</td>
+                    <td>{{data.addressLine2}}</td>
+                    <td>{{data.city}}</td>
+                    <td>{{data.zipcode}}</td>
+                    <td>{{data.state}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+
+    </table>
+{% endif %}
+
+{% endblock %}
