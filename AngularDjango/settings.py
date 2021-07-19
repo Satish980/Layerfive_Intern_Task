@@ -81,9 +81,14 @@ WSGI_APPLICATION = 'AngularDjango.wsgi.application'
 DATABASES={
    'default':{
       'ENGINE':'django.db.backends.postgresql_psycopg2',
-      'NAME':'postgres',
+      'NAME':'d4tsdd5d0j4ng7',
+      'USER':'jxplopdqzvyrzt',
+      'PASSWORD':'1fc6b4cb6c27b60f827e0a92f00a759fed26c0255617a56413e7fc5444881520',
+      'HOST':'ec2-34-202-54-225.compute-1.amazonaws.com',
+      'PORT':5432,
    }
 }
+#postgres://jxplopdqzvyrzt:1fc6b4cb6c27b60f827e0a92f00a759fed26c0255617a56413e7fc5444881520@ec2-34-202-54-225.compute-1.amazonaws.com:5432/
 
 
 # Password validation
