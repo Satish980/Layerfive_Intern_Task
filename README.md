@@ -27,7 +27,6 @@ This repo consists of Codes of Read and Add Operations Using Django task given b
        Frontend: HTML, Bootstrap
        Backend : Django
        Database: PostgreSql
-    3. Live Link: https://layerfive-django-task.herokuapp.com/
 
 # Procedure
    1. Download the code or clone the repository using below link
@@ -63,6 +62,9 @@ This repo consists of Codes of Read and Add Operations Using Django task given b
    7. Now copy the url you got from command line and open it in the browser to view the project. In my case that url is
    
    		http://127.0.0.1:8000/
+		
+   # My App Live Link
+   https://layerfive-django-task.herokuapp.com/
    # Thank You
 
 	
